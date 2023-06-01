@@ -6,21 +6,11 @@
     list-style: none;
     text-decoration: none;
 }
-:root
-{
-    --main-color:#ff702a;
-    --text-color:#fff;
-    --bg-color:#1e1c2a;
-}
-::selection
-{
-    background: var(--main-color);
-    color: #fff;
-}
+
 body
 {
-    color:var(--text-color);
-    background-color:var(--main-color);
+    color:orange;
+    background-color:lightcoral;
 } 
 header
 {
@@ -33,11 +23,11 @@ header
     align-items: center;
     justify-content:space-between;
     padding: 30px 170px;
-    background:var(--main-color);
+    background:lightcoral;
 } 
 .logo
 {
-    color:var(--main-color);
+    color:orange;
     font-size: 2.4rem;
     font-weight: 600;
     list-style: none;
@@ -49,7 +39,7 @@ header
     font-size: 20px;
 }
 .list:hover{
-    color: var(--main-color);
+    color:orange;
     transition: .4s;
 }
 .menu-icon
@@ -81,7 +71,7 @@ section
 .home-text h1
 {
     font-size: 70px;
-    color:var(--main-color);
+    color:orange;
     margin-left: 15px;
 }
 .home-text h2
@@ -94,7 +84,7 @@ section
 {
     display: inline-block;
     padding: 10px 20px;
-    background:var(--main-color);
+    background:orange;
     color: #fff;
     border-radius: 0.5rem;
     margin-left: 15px;
@@ -136,7 +126,7 @@ section
     text-align: center;
 }
 .heading span{
-    color: var(--main-color);
+    color:orange;
     font-weight: 600;
 }
 .heading h1
@@ -195,7 +185,7 @@ section
 }
 .box icon
 {
-    background: var(--main-color);
+    background:orange;
     position: absolute;
     right: 0;
     top: 0;
